@@ -18,6 +18,8 @@ If you're a fellow `fish` user, you'll want to use `monitor_speed.fish` instead.
 ## internet_speed_exploration.ipynb
 Ipython notebook using pands and matplotlib to create the super simple time based charts.
 
+Run with `jupyter-lab internet_speed_exploration.ipynb`
+
 ### Python Requirements
 
 The good old triad:
