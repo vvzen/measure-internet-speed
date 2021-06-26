@@ -17,7 +17,7 @@ while true
 	set today (date "+%d_%m_%Y")
 	set output_file "data/speed_test_monitor_$today.csv"
 
-	if test -f $output_file
+	if not test -f $output_file
 		echo "Creating csv file for" $today
 		speedtest-cli --csv-header > $output_file
 	end
