@@ -1,0 +1,12 @@
+name: monitor-internet-speed
+channels:
+  - conda-forge
+  - defaults
+# Only high level ones, the rest will follow
+dependencies:
+  - ipython=7.0.1=py35h24bf2e0_0
+  - jupyterlab=2.1.0=py_0
+  - matplotlib=3.0.0=py35h54f8f79_0
+  - notebook=5.7.0=py35_0
+  - numpy=1.14.6=py35_blas_openblashd3ea46f_200
+  - pandas=0.22.0=py35_1
